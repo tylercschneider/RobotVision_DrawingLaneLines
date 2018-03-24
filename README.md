@@ -1,6 +1,3 @@
-
-**** READ ME ****
-
 PROJECT
 ---
 Basic Robot Vision - UDACITY Self Driving Car Engineer P1
