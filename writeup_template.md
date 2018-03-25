@@ -36,7 +36,7 @@ Pass to Hough function...this will find lines created by continuous gradient val
 Drawlines is called with in hough to draw the lines it finds.
 Later iteration and final version draws to single lines that predict where the lane lines are even if there is only dashed lines.
 
-![image6](./writeup_images/edges_solidYellowCurve.jpg "Hough Image")
+![image6](./writeup_images/hough_solidYellowCurve.jpg "Hough Image")
 
 Pass lines data to weighted image where it combines it with a copy of the original to see a normal image with lane line predictions overlaid.
 
