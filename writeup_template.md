@@ -52,7 +52,7 @@ Two shortcomings in regards to this build both happen within the draw_lines().
 1. When the pipeline is processing video a couple of frames will drawn lines that are just off of the lines painted on the road.
 This is definitely due to draw_lines(). Some of the filtering and calculation methods are unable to throw out bad slope calculations and find a more appropriate slope. It is a very calculation heavy function estimating slope, and the x points that will be drawn. 
 
-![image8](./writeup_images/badlines "Bad Lines")
+![image8](./writeup_images/badlines.png "Bad Lines")
 
 I didn't want to use the same function that was given in the walkthrough video so I dug deep and built my own. From the looks of it the example method of calculating the slope and points creates a more reliable lines. But learned a lot about lines and manipulating data by building my own.
 
